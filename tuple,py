@@ -1,0 +1,44 @@
+Tuple
+# syntax : ()
+t = ()  # empty tuple
+# Tuple has same features as that of list
+# It accepts homo./hetro. data
+a = (1,2,3,4) # data is of same type==> homo.
+b = (1,23.22,4+5j,'vinay') # data is of different type==> hetro.
+# Tuple supports indexing and slicing bcz background data structure is an Array
+# access middle 2 elements from b
+b[1:3]
+# Tuple preserves sequence order
+# duplicates are allowed in tuple
+# Tuple is Immutable in nature
+#----------------------------------------------------
+# In data type we have 2 approaches
+# 1. Mutable data types- in which we can directly perform the changes(add,update,remove,insert,del)
+# Ex. List, Set, Dict
+# 2. Immutable data types- in which we can't perform the change in the original object, change remain temp.
+# Ex. Tuple,string, range,
+# list is mutable
+# lets try to change last eleement 30
+p[-1] = 'Akshay'
+# remove 10
+p.remove(10)
+# use insert(index,value) to add an element using index
+p.insert(0,'LAXMI')
+# lets try to understand Immutable concept
+# in which user cant able to change in the original object
+t = (10,20,30)
+t
+# lets replace last element
+t[-1] = 'Shirdhar'
+# Assignment: Tuple contains 2 method - count(object) and index(object) check these 2 methods.
+# Tuple Packing and Unpacking
+a = 100
+b = 'archana'
+c = 300
+# Tuple Packing and Unpacking
+a = 100
+b = 'archana'
+c = 300
+# Unpacking- It is a process of separating the individual object ans store it in separate variable called as Unpacking
+num1,name,num2 = nums
+# Assignment: Check packing and unpacking for list as well.
